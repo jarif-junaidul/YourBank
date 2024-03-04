@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.entryDiv,
+.profileEntryDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    height: auto;
+    width: 380px;
+    margin: auto;
+    padding: 50px;
+    margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 12px 0px;
+    border-radius: 8px;
+}
+
+.Username,
+.Password,
+.fullnameCreat,
+.idCreat,
+.passwordCreat,
+.textx{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.UsernameInput,
+.PasswordInput,
+.fullnameCreatInput,
+.idCreatInput,
+.passwordCreatInput,
+.DepositInput,
+.WithdrawInput,
+.sentMoneyAmountInput,
+.reciverIdInput{
+    border: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #313335;
+    width: 338px;
+    height: 50px;
+    padding-left: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.WithdrawInput,
+.DepositInput{
+    width: 225px;
+}
+
+.WithdrawInput{
+    margin-bottom: 0px;
+}
+
+.UsernameInput{
+    margin-bottom: 10px;
+}
+
+.sendMoneyDiv,
+.addMoneyDiv{
+    background-color: rgb(250, 250, 250);
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 12px;
+}
+
+.LogInButton,
+.JoinButton,
+.creatSave,
+.DepositButton,
+.WithdrawButton,
+.LogOutButton,
+.TransactionButton{
+    width: 350px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color: rgb(10, 102, 194, 0.85);
+    cursor: pointer;
+    transition: 0.167s;
+}
+
+.LogOutButton{
+    background-color: rgb(255, 0, 0, 0.7);
+    width: 150px;
+}
+
+.WithdrawButton,
+.DepositButton{
+    width: 110px;
+}
+
+.LogInButton:hover{
+    background-color: rgb(10, 102, 194, 1);
+}
+
+.JoinButton{
+    background-color: white;
+    color: gray;
+    border-color: gray;
+    border: solid;
+    border-width: 1px;
+    transition: 0.167s;
+}
+
+.JoinButton:hover{
+    color: black;
+    border-color: black;
+}
+
+.LogInButtonDiv,
+.JoinButtonDiv{
+    margin-top: 20px;
+    
+}
+
+.FPText{
+    color: rgb(10, 102, 194);
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.welcomeText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text2{
+    margin-bottom: 30px;
+}
+
+.oilMsg{
+    margin-bottom: 30px;
+}
+
+.totalBalance{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
